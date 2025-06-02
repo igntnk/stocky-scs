@@ -1,0 +1,23 @@
+[
+  {
+    "update": "user",
+    "updates": [
+      {
+        "q": { "_id":  { "$oid":  "000000000000000000000000"}},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid":  "000000000000000000000000"},
+            "name": "superUser",
+            "description": "superDescription",
+            "creation_date": "2025-12-12T12:12:12.122",
+            "blocked": false,
+            "document_type": "passport",
+            "document_number": "1230123",
+            "auth_id": "000000000000000000000000"
+          }
+        },
+        "upsert": true
+      }
+    ]
+  }
+]
