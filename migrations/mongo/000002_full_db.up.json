@@ -1,0 +1,189 @@
+[
+  {
+    "update": "user",
+    "updates": [
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f12345601" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f12345601" },
+            "name": "Alice Johnson",
+            "description": "Regular user",
+            "creation_date": "2025-01-10T10:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340001" }
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f12345602" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f12345602" },
+            "name": "Bob Smith",
+            "description": "Regular user",
+            "creation_date": "2025-01-11T11:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340002" }
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f12345603" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f12345603" },
+            "name": "Carol Davis",
+            "description": "Regular user",
+            "creation_date": "2025-01-12T12:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340003" }
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f12345604" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f12345604" },
+            "name": "David Evans",
+            "description": "Regular user",
+            "creation_date": "2025-01-13T13:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340004" }
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f12345605" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f12345605" },
+            "name": "Eve Franklin",
+            "description": "Regular user",
+            "creation_date": "2025-01-14T14:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340005" }
+          }
+        },
+        "upsert": true
+      },
+
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f82345601" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f82345601" },
+            "name": "Staff Anna Green",
+            "description": "Staff member",
+            "creation_date": "2025-02-01T09:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a001" },
+            "document_type": "passport",
+            "document_number": "STAFF001"
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f82345602" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f82345602" },
+            "name": "Staff Brian Harris",
+            "description": "Staff member",
+            "creation_date": "2025-02-02T10:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a002" },
+            "document_type": "passport",
+            "document_number": "STAFF002"
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f82345603" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f82345603" },
+            "name": "Staff Cindy Lee",
+            "description": "Staff member",
+            "creation_date": "2025-02-03T11:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a003" },
+            "document_type": "passport",
+            "document_number": "STAFF003"
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f82345604" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f82345604" },
+            "name": "Staff Derek Miller",
+            "description": "Staff member",
+            "creation_date": "2025-02-04T12:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a004" },
+            "document_type": "passport",
+            "document_number": "STAFF004"
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f82345605" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f82345605" },
+            "name": "Staff Emma Nelson",
+            "description": "Staff member",
+            "creation_date": "2025-02-05T13:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a005" },
+            "document_type": "passport",
+            "document_number": "STAFF005"
+          }
+        },
+        "upsert": true
+      },
+
+      {
+        "q": { "_id": { "$oid": "64b7f345c21a9b1f1234abcd" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "64b7f345c21a9b1f1234abcd" },
+            "name": "Extra User Frank",
+            "description": "Spare user",
+            "creation_date": "2025-03-01T08:00:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e112340999" }
+          }
+        },
+        "upsert": true
+      },
+      {
+        "q": { "_id": { "$oid": "74c2d987a19a4c2f8234abcd" }},
+        "u": {
+          "$setOnInsert": {
+            "_id": { "$oid": "74c2d987a19a4c2f8234abcd" },
+            "name": "Extra Staff Grace",
+            "description": "Spare staff",
+            "creation_date": "2025-03-02T08:30:00.000Z",
+            "blocked": false,
+            "auth_id": { "$oid": "7f9a21d2c1a1a5e11234a999" },
+            "document_type": "passport",
+            "document_number": "STAFF999"
+          }
+        },
+        "upsert": true
+      }
+    ]
+  }
+]
